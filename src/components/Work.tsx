@@ -4,6 +4,7 @@ const StyledWork= styled.div`
     margin: 10px;
     display: flex;
     flex-direction: column;
+    padding: 20px;
 `;
 
 const StyledWorkUl = styled.ul`

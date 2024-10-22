@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const StyledReferences = styled.div`
-    padding: 10px;
+    padding: 20px;
 `;
 const StyledTable = styled.table`
     border-collapse: collapse;

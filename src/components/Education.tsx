@@ -4,6 +4,7 @@ const StyledEducation = styled.div`
     margin: 10px;
     display: flex;
     flex-direction: column;
+    padding: 20px;
 
     div {
         padding: 10px;

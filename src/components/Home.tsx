@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const StyledHome= styled.div`
-    padding: 10px;
+    padding: 20px;
 `;
 
 const StyledImg = styled.img`
