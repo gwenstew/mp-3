@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import Calculator from "./calculator";
+import Calculator from "./Calculator.tsx";
 
 const StyledProjects = styled.div`
     margin: 10px;
