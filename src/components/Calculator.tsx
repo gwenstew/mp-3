@@ -7,7 +7,7 @@ const StyledCalculator= styled.div`
     font-size: calc(16px + 0.5vw);
     text-align: center;
     margin-top: 10px;
-    padding: 10px;
+    padding: 20px;
     border-radius: 20px;
     background-color:#a45c5c;
 `;
@@ -24,6 +24,7 @@ const StyledOutput=styled.div`
 `;
 
 const StyledInput= styled.div`
+    margin:10px;
     padding: 20px;
     display: flex;
     flex-direction: row;
@@ -44,6 +45,7 @@ const StyledInput= styled.div`
 `;
 
 const StyledButtons = styled.div`
+    margin:10px;
     padding: 20px
     display:flex;
     flex-direction: row;

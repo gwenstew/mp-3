@@ -6,6 +6,7 @@ const StyledProjects = styled.div`
     display: flex;
     flex-direction: column;
     padding: 20px;
+    padding-bottom: 20%;
 `;
 
 const StyledEntry = styled.div`
