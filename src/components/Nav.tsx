@@ -27,10 +27,13 @@ export default function Nav(){
                     <Link to={'./Projects'}>Projects</Link>
                 </li>
                 <li>
-                    <Link to={'./Certifications'}>Classes & Skills</Link>
+                    <Link to={'./Skills'}>Classes & Skills</Link>
                 </li>
                 <li>
                     <Link to={'./References'}>References</Link>
+                </li>
+                <li>
+                    <Link to={'./Documents'}>Documents</Link>
                 </li>
             </ul>
         </StyledNav>

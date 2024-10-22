@@ -5,6 +5,12 @@ import  Nav from './components/Nav.tsx'
 import  { Header } from './components/Header.tsx'
 import { Footer } from './components/Footer.tsx'
 import Home from './components/Home.tsx'
+import Work from './components/Work.tsx'
+import Education from './components/Education.tsx'
+import References from './components/References.tsx'
+import Skills from './components/Skills.tsx'
+import Projects from './components/Projects.tsx'
+import Documents from './components/Documents.tsx'
 
 
 const Container = styled.div`
@@ -13,7 +19,9 @@ const Container = styled.div`
   display:flex;
   flex-direction: column;
   margin: 0px 50px;
-  
+`;
+
+const Body = styled.div`
 `;
 function Root(){
   return(
@@ -21,6 +29,12 @@ function Root(){
       <Nav/>
       <Routes>
         <Route path="/*" element={<Home/>}/>
+        <Route path="/Education*" element={<Education/>}/>
+        <Route path="/Work*" element={<Work/>}/>
+        <Route path="/Skills*" element={<Skills/>}/>
+        <Route path="/Projects*" element={<Projects/>}/>
+        <Route path="/Documents*" element={<Documents/>}/>
+        <Route path="/References*" element={<References/>}/>
       </Routes>
     </>
   );
