@@ -8,6 +8,7 @@ const StyledNav = styled.nav`
     background-color: #dc7646;
     color: #ffc7c7;
     border-radius: 20px;
+    margin: 20px 20px;
 
     ul {
         list-style-type: none;
@@ -25,6 +26,28 @@ const StyledNav = styled.nav`
         color: #4f1c4c;
         background-color: #ffc7c7;
     }
+
+    @media screen and (max-width: 750px) {
+        
+        ul {
+            display: flex;
+            flex-direction: row;
+            flex-wrap:wrap;
+        }
+ 
+    }
+    @media screen and (min-width: 750px) {
+        width: 30%;
+        float: left;
+        margin-bottom: 20px;
+    
+        ul {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    font-size: calc(10px + 0.5vw)
 `;
 
 export default function Nav(){

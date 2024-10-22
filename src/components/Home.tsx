@@ -17,7 +17,8 @@ const StyledImg = styled.img`
 export default function Home() {
     return(
         <StyledHome>
-            <StyledImg src="/public/imgs/BizProfPhoto.jpg" alt="Profile Photo"></StyledImg>
+            <h3>Home</h3>
+            <StyledImg src="/imgs/BizProfPhoto.jpg" alt="Profile Photo"></StyledImg>
             <p>My name is Gweneth Stewart and I am a current senior studying Computer Science at Boston University.
                     I am seeking entry-level opportunities to apply my skills in a collaborative and creative environment.</p>
             <p>To learn more about my skills and how I can add value to your team, explore my portfolio!</p>

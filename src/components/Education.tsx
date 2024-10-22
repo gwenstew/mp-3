@@ -1,7 +1,9 @@
 import styled from "styled-components";
 
 const StyledEducation = styled.div`
-    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
 
     div {
         padding: 10px;

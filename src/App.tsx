@@ -14,17 +14,26 @@ import Documents from './components/Documents.tsx'
 
 
 const Container = styled.div`
+  font-family: Georgia,Times,Times New Roman,serif;
   background-color: #ffc7c7;
   border-radius: 20px;
   display:flex;
   flex-direction: column;
-  margin: 0px 50px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1000px;
+  color: #4f1c4c;
+
+  h3 {
+    text-align:center;
+  }
+  font-size: calc(12px + 0.5vw)
 `;
 
 const Body = styled.div`
-  display:flex;
-  flex-direction: row;
+  font-size: calc(10px + 0.5vw)
   padding: 20px
+  width: 100%
 `;
 
 function Root(){

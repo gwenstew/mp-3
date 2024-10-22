@@ -10,7 +10,7 @@ export default function Documents() {
             <h3>Documents</h3>
             <h4> Resume </h4>
             <iframe
-                src="public/docs/Gweneth_Stewart_Resume_spring2024.pdf"
+                src="docs/Gweneth_Stewart_Resume_spring2024.pdf"
                 title="Gweneth's Full Resume"
             ></iframe>
         </StyledDocs>
