@@ -1,5 +1,4 @@
 import styled from 'styled-components'
-import { useState } from 'react'
 import { Route, Routes, createBrowserRouter, RouterProvider } from 'react-router-dom'
 import  Nav from './components/Nav.tsx'
 import  { Header } from './components/Header.tsx'
