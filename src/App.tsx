@@ -22,7 +22,11 @@ const Container = styled.div`
 `;
 
 const Body = styled.div`
+  display:flex;
+  flex-direction: row;
+  padding: 20px
 `;
+
 function Root(){
   return(
     <>
@@ -40,7 +44,7 @@ function Root(){
   );
 }
 
-const router=createBrowserRouter(
+const router = createBrowserRouter(
   [
     {path:"*", Component: Root}
   ]
@@ -50,7 +54,9 @@ function App() {
   return (
     <Container>
       <Header/>
-      <RouterProvider router={router}/>
+      <Body>
+        <RouterProvider router={router}/>
+      </Body>
       <Footer/>
     </Container>
     

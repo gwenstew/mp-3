@@ -8,6 +8,23 @@ const StyledNav = styled.nav`
     background-color: #dc7646;
     color: #ffc7c7;
     border-radius: 20px;
+
+    ul {
+        list-style-type: none;
+        padding: 20px;
+    }
+    ul li a {
+        display: block;
+        text-align: center;
+        text-decoration: none;
+        padding: 20px;
+        border-radius: 5px;
+    }
+    
+    ul li a:hover {
+        color: #4f1c4c;
+        background-color: #ffc7c7;
+    }
 `;
 
 export default function Nav(){
