@@ -12,15 +12,18 @@ const StyledCalculator= styled.div`
     background-color:#a45c5c;
 `;
 
-const StyledOutput=styled.div`
+const StyledOutput=styled.div<{resColor: string}>`
     width: 80px;
     height: 80px;
     border: 5px solid #4f1c4c;;
     background-color: white;
     margin: 10px auto;
+    display: flex; 
+    justify-content: center;
     align-items: center;
     font-weight: bold;
     font-size: calc(16px + 0.5vw);
+    color: ${(props) => props.resColor};
 `;
 
 const StyledInput= styled.div`
@@ -125,8 +128,8 @@ function Calculator() {
                 <button className="add" onClick={handlePower}>**</button>
                 <button className="add" onClick={clear}>clear</button>
             </StyledButtons>
-            <StyledOutput>
-                Result: {result}
+            <StyledOutput resColor={resColor}>
+                {result}
             </StyledOutput>
         </StyledCalculator>
     )
