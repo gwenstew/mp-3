@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import Calculator from "./calculator";
 
 const StyledProjects = styled.div`
     margin: 10px;
@@ -14,6 +15,7 @@ const StyledEntry = styled.div`
 
 export default function Projects() {
     return(
+        <>
         <StyledProjects>
         <h3>Projects</h3> 
         <h4>College Kitchen</h4>
@@ -30,5 +32,7 @@ export default function Projects() {
             </StyledEntry>
 
         </StyledProjects>
+        <Calculator/>
+        </>
     )
 }
